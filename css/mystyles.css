@@ -1,0 +1,117 @@
+
+@font-face {
+	font-family: 'ElMessiri';
+	src: url(../fonts/elmessiri-regular.otf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'ElMessiri';
+	src: url(../fonts/elmessiri-bold.otf);
+	font-weight: bold;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'ElMessiri';
+}
+
+.jumbotron {
+	background-image: url('../img/spa-4.jpg');
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	border-radius: 0px!important;
+}
+
+.jumbotron h1 {
+	margin: 10px 0;
+	font-size: 90px;
+	line-height: 1.5;
+}
+
+.intro {
+	padding-top: 25px;
+}
+
+.intro img {
+	width: 220px;
+}
+
+.navbar-nav a {
+	color: white!important;
+	margin: 0 20px;
+	margin-top: 30px;
+}
+
+.navbar-toggler {
+	color: white!important;
+	border: none!important;
+	outline: none!important;
+}
+
+.navbar-toggler .fa {
+	color: white;
+	font-size: 26px;
+}
+
+.nav-link:hover {
+	font-weight: 600;
+	border-bottom: 1px solid white;
+	margin-bottom: -1px;
+}
+
+#header .btn {
+	border: 1px solid white;
+	margin-top: 20px;
+	padding: 6px 26px;
+	font-size: 16px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.navbar {
+		background-color: rgba(0,0,0,0.8);
+	}
+	
+	.navbar-nav a {
+		margin: 0px 5px 0 17px;
+		margin-top: 30px;
+	}
+	
+	.nav-link:hover {
+		border-bottom: none;
+	}
+	
+	.intro {
+		padding-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.jumbotron h1 {
+		font-size: 50px;
+		line-height: 1.7;
+	}
+	
+	.intro {
+		padding-top: 10px;
+	}
+	
+	.intro img {
+		width: 200px;
+		padding-top: 50px;
+	}
+}
+
+.dropdown-item {
+	background-color: #9B592A!important;
+	width: 100px!important;
+}
+
+.dropdown-menu {
+	background-color: #9B592A!important
+}
+
+
